@@ -1,0 +1,4 @@
+images:
+  - boot
+  - vendor_boot
+  - dtbo
