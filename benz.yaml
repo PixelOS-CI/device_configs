@@ -4,6 +4,3 @@ images:
   - dtbo
   - recovery
   - init_boot
-
-picks:
-  - 1096
