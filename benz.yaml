@@ -4,3 +4,5 @@ images:
   - dtbo
   - recovery
   - init_boot
+  - vbmeta
+  - super_empty
