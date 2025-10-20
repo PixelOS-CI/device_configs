@@ -6,3 +6,6 @@ images:
   - init_boot
   - vbmeta
   - super_empty
+
+picks:
+  - 16-aston-bringup
