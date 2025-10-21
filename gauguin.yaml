@@ -2,8 +2,6 @@ images:
   - recovery
 
 picks:
-  - 1362
-  - 1004
   - "16-pih"
   - "16-switchpreference-compat"
   - "16-screenshot"
