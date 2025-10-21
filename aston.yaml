@@ -8,4 +8,8 @@ images:
   - super_empty
 
 picks:
-  - 16-aston-bringup
+  - 1126
+  - "16-pih"
+  - "16-screenshot"
+  - "16-switchpreference-compat"
+
