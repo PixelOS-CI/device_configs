@@ -9,7 +9,4 @@ images:
 
 picks:
   - 1126
-  - "16-pih"
-  - "16-screenshot"
-  - "16-switchpreference-compat"
-
+  - "16-pih -p"
