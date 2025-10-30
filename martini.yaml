@@ -6,4 +6,4 @@ images:
 
 picks:
   - "16-pih -p"
-  - "martini-bringup -p"
+  - "martini-bringup"
