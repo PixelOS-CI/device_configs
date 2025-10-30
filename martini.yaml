@@ -1,0 +1,8 @@
+images:
+  - boot
+  - dtbo
+  - vbmeta
+  - vendor_boot
+
+picks:
+  - "16-pih -p"
