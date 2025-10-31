@@ -1,6 +1,6 @@
 images:
   - recovery
 
-picks:
-  - "16-pih -p"
-  - "16-advanced-reboot"
+# picks:
+#   - "16-pih -p"
+#   - "16-advanced-reboot"
