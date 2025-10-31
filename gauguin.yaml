@@ -2,5 +2,4 @@ images:
   - recovery
 
 picks:
-  - "16-switchpreference-compat"
-#   - "16-advanced-reboot"
+  - "16-advanced-reboot"
