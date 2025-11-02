@@ -2,6 +2,7 @@ images:
   - recovery
 
 picks:
+  - 1126
   - 1621
   - 1622
   - "16-advanced-reboot"
