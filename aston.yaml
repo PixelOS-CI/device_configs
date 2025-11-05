@@ -6,7 +6,3 @@ images:
   - init_boot
   - vbmeta
   - super_empty
-
-picks:
-  - 1126
-  - "16-pih -p"
