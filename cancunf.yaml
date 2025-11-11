@@ -1,3 +1,6 @@
 images:
   - boot
   - vendor_boot
+
+picks:
+  - "cancunf-padding-improvements"
