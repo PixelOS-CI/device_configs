@@ -1,0 +1,7 @@
+images:
+  - boot
+  - dtbo
+  - recovery
+
+picks:
+  - "sweet-bringup -p"
