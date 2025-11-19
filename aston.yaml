@@ -6,6 +6,3 @@ images:
   - init_boot
   - vbmeta
   - super_empty
-
-picks:
-  - id: 1126
