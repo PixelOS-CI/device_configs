@@ -3,4 +3,5 @@ images:
   - vendor_boot
 
 picks:
-  - "sunny-bringup"
+  - id: "sunny-bringup"
+    pull: false
