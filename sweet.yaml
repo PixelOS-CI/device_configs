@@ -6,3 +6,5 @@ images:
 picks:
   - id: "sweet-bringup"
     pull: true
+  - id: "dolby"
+    pull: true
