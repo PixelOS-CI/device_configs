@@ -6,5 +6,6 @@ images:
   - init_boot
 
 picks:
+  - id: "health-fcc"
   - id: 1867
   
