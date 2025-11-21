@@ -5,7 +5,5 @@ images:
 
 picks:
   - id: "sweet-bringup"
-    pull: true
   - id: "xiaomi-dolby"
-    pull: true
   - id: 1865
