@@ -2,6 +2,7 @@ images:
   - recovery
 
 picks:
-  - id: "screenrecord"
-  - id: "smartspace"
-  - id : 2367
+  - id: 2359
+    pull: true
+  - id: 2400
+    pull: true
