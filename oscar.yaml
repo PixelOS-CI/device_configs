@@ -3,3 +3,6 @@ images:
   - vendor_boot
   - dtbo
   - super_empty
+  
+picks:
+  - id: 1587
