@@ -4,7 +4,7 @@ images:
   - recovery
 
 picks:
-  - id: "sweet-bringup"
+  - id: 1830
   - id: "xiaomi-dolby"
   - id: 1865
   - id: 2360
