@@ -7,6 +7,7 @@ picks:
   - id: 1830
   - id: "xiaomi-dolby"
   - id: 1865
-  - id: "screenrecord"
+  - id: 2401
+  - id: "16-screenrecord"
   - id: 2347
   - id: "smartspace"
