@@ -1,0 +1,7 @@
+images:
+  - boot
+  - dtbo
+  - recovery
+
+picks:
+  - id: 1830
