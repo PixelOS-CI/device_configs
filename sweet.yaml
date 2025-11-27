@@ -4,7 +4,6 @@ images:
   - recovery
 
 picks:
-  - id: 1830
   - id: "xiaomi-dolby"
   - id: 1865
   - id: "16-screenrecord"
