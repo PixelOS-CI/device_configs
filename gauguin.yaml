@@ -1,3 +1,8 @@
 images:
   - recovery
 
+picks:
+  - id: 3954
+    pull: true
+  - id: 3949
+    pull: true
