@@ -2,7 +2,8 @@ images:
   - recovery
 
 picks:
-  - id: 4041
+  - id: 4000
     pull: true
+  - id: "-g ssh://bot@review.pixelos.net 4041"
   - id: 3959
     pull: true
