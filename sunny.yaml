@@ -5,3 +5,10 @@ images:
 picks:
   - id: "sunny-bringup"
     pull: false
+  - id: "legacy-bpf-compat"
+  - id: 425306
+    remote: "review.lineageos.org"
+    path: "vendor/qcom/opensource/power"
+  - id: 452772
+    remote: "review.lineageos.org"
+    path: "packages/modules/Connectivity"
