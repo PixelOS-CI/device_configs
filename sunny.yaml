@@ -7,8 +7,8 @@ picks:
   - id: 4044
   - id: "legacy-bpf-compat"
   - id: 425306
-    remote: "review.lineageos.org"
+    remote: "https://review.lineageos.org"
     path: "vendor/qcom/opensource/power"
   - id: 452772
-    remote: "review.lineageos.org"
+    remote: "https://review.lineageos.org"
     path: "packages/modules/Connectivity"
