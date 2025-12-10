@@ -3,8 +3,6 @@ images:
   - vendor_boot
 
 picks:
-  - id: "sunny-bringup"
-    pull: false
   - id: "legacy-bpf-compat"
   - id: 425306
     remote: "review.lineageos.org"
