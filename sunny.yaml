@@ -3,9 +3,6 @@ images:
   - vendor_boot
 
 picks:
-  - id: 4043
-  - id: 4044
-  - id: 4046
   - id: "legacy-bpf-compat"
   - id: 425306
     remote: "https://review.lineageos.org"
