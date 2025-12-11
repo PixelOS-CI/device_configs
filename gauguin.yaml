@@ -1,18 +1,3 @@
 images:
   - recovery
-
-picks:
-  # packages/apps/Settings
-  - id: 4039
-    pull: true
-  # build/soong
-  - id: 2112
-    pull: true
-  # frameworks/av
-  - id: 4078
-  # vendor/lineage
-  - id: 4040
-    pull: true
-  # frameworks/base
-  - id: 4087
-
+  
