@@ -8,6 +8,3 @@ picks:
   - id: 425306
     remote: "https://review.lineageos.org"
     path: "vendor/qcom/opensource/power"
-  - id: 452772
-    remote: "https://review.lineageos.org"
-    path: "packages/modules/Connectivity"
