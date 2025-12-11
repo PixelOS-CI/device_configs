@@ -2,7 +2,11 @@ images:
   - recovery
 
 picks:
-  - id: 4000
+  - id: 4039
     pull: true
-  - id: 3959
+  - id: 2112
     pull: true
+  - id: 4078
+  - id: 4040
+    pull: true
+
