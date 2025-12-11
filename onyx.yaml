@@ -1,0 +1,11 @@
+images:
+  - boot
+  - vendor_boot
+  - dtbo
+  - recovery
+  - init_boot
+
+picks:
+  - id: 4078
+  - id: 1867
+  
