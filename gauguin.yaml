@@ -4,6 +4,6 @@ images:
 picks:
   # libperfmgr upstream changes
   - id: 464836
-    remote: "review.lineage.org"
+    remote: "https://review.lineageos.org"
     path: "hardware/lineage/interfaces"
     pull: true
