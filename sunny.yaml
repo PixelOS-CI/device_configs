@@ -4,7 +4,6 @@ images:
 
 picks:
   - id: 4137
-  - id: 4138
   - id: "legacy-bpf-compat"
   - id: 425306
     remote: "https://review.lineageos.org"
