@@ -1,9 +1,10 @@
 images:
   - recovery
   
-picks:
+# picks:
+  #BP4A
   # libperfmgr upstream changes
-  - id: 464836
-    remote: "https://review.lineageos.org"
-    path: "hardware/lineage/interfaces"
-    pull: true
+  # - id: 464836
+  #   remote: "https://review.lineageos.org"
+  #   path: "hardware/lineage/interfaces"
+  #   pull: true
