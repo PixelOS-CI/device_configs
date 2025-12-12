@@ -13,4 +13,4 @@ picks:
   - id: "ln8000"
   - id: 4087
   - id: 4141
-  pull: true
+    pull: true
