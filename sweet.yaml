@@ -10,5 +10,5 @@ picks:
     pull: true
   - id: 4092
     pull: true
-    -id: "ln8000"
+  - id: "ln8000"
   - id: 4087
