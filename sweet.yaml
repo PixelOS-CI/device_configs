@@ -6,7 +6,7 @@ images:
 picks:
   - id: 3967
     pull: true
-  - id: 4133
+  - id: 4142
     pull: true
   - id: 4092
     pull: true
