@@ -2,9 +2,9 @@ images:
   - recovery
   
 picks:
-  - id: 4151
+  - id: 4140
     pull: true
-  - id : 4141
+  - id : 4152
     pull: true
   #BP4A
   # libperfmgr upstream changes
