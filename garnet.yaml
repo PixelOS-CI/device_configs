@@ -3,6 +3,3 @@ images:
   - vendor_boot
   - dtbo
   - recovery
-
-picks:
-  - id: 4143
