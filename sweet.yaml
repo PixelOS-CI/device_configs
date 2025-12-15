@@ -4,13 +4,18 @@ images:
   - recovery
 
 picks:
+    # Device tree
   - id: 3967
     pull: true
-  - id: 4186
+    # Common tree
+  - id: 4192
     pull: true
+    # Kernel tree
   - id: 4092
     pull: true
   - id: "ln8000"
+  # Frameworks/base
   - id: 4162
     pull: true
+    # packages/apps/Settings
   - id: 4160
