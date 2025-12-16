@@ -18,6 +18,6 @@ picks:
   - id: 4162
     pull: true
     # packages/apps/Settings
-  - id: 4160
+  - id: 4160/1
   # hw/ximi
   - id: "xiaomi-dolby"
