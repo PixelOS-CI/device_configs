@@ -15,9 +15,9 @@ picks:
     pull: true
   - id: "ln8000"
   # Frameworks/base
-  - id: 4162
+  - id: 4195
     pull: true
     # packages/apps/Settings
-  - id: 4160/1
+  - id: 4160
   # hw/ximi
   - id: "xiaomi-dolby"
