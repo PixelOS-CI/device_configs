@@ -5,10 +5,10 @@ images:
 
 picks:
     # Device tree
-  - id: 3967
+  - id: 4226
     pull: true
     # Common tree
-  - id: 4192
+  - id: 4230
     pull: true
     # Kernel tree
   - id: 4092
@@ -19,3 +19,5 @@ picks:
     pull: true
     # packages/apps/Settings
   - id: 4160
+  # hw/ximi
+  - id: "xiaomi-dolby"
