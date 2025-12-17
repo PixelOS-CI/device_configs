@@ -2,3 +2,6 @@ images:
   - boot
   - vendor_boot
   - dtbo
+
+picks:
+  - id: 4240
