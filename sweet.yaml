@@ -5,12 +5,17 @@ images:
 
 picks:
     # Device tree
-  - id: 3967
+  - id: 4238
     pull: true
     # Common tree
-  - id: 4192
+  - id: 4228
     pull: true
     # Kernel tree
   - id: 4092
     pull: true
   - id: "ln8000"
+  # fwb
+  - id: 4162
+    pull: true
+  # Settings
+  - id: 4160
