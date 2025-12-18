@@ -4,6 +4,6 @@ images:
   - recovery
 
 picks:
-  - id: 2911
-  - id: 3056
-  - id: "16-smartspace"
+  # device/xiaomi/sm6150-common
+  - id: 4133
+    pull: true
