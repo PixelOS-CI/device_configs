@@ -8,7 +8,12 @@ picks:
     pull: true
   - id: "another-topic"
   - id: 1126
-    remote: "review.lineage.org"
+    remote: "https://review.lineage.org"
     path: "frameworks/base"
     pull: true
   - id: 5678
+
+extra_deps:
+  - url: https://github.com/torvalds/linux
+    path: kernel/mainline
+    branch: master (optional)
