@@ -2,14 +2,16 @@ images:
   - recovery
   
 picks:
+    # frameworks/base
+  - id: 4249
+    pull: true
+    # packages/apps/Settings
   - id: 4170
     pull: true
-  - id: 4172
+    # device/lineage/sepolicy
+  - id: 465162
+    remote: "https://review.lineageos.org"
+    path: "device/lineage/sepolicy"
+    # device/xiaomi/gauguin
+  - id: 4251
     pull: true
-  # - id: 4187
-  #BP4A
-  # libperfmgr upstream changes
-  # - id: 464836
-  #   remote: "https://review.lineageos.org"
-  #   path: "hardware/lineage/interfaces"
-  #   pull: true
