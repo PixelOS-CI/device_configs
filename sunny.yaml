@@ -5,6 +5,3 @@ images:
 picks:
   - id: "sunny-qol"
   - id: "legacy-bpf-compat"
-  - id: 425306
-    remote: "https://review.lineageos.org"
-    path: "vendor/qcom/opensource/power"
