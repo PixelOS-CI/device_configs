@@ -14,8 +14,3 @@ picks:
   - id: 4092
     pull: true
   - id: "ln8000"
-  # fwb
-  - id: 4162
-    pull: true
-  # Settings
-  - id: 4160
