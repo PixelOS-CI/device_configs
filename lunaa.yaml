@@ -1,0 +1,24 @@
+images:
+  - boot
+  - vendor_boot
+  - dtbo
+
+extra_deps:
+  - url: https://github.com/pixelos-lunaa/device_realme_lunaa.git
+    path: device/realme/lunaa
+    branch: sixteen
+  - url: https://github.com/pixelos-lunaa/vendor_realme_lunaa.git
+    path: vendor/realme/lunaa
+    branch: sixteen-qpr1
+  - url: https://github.com/pixelos-lunaa/device_oneplus_sm8350-common.git
+    path: device/oneplus/sm8350-common
+    branch: sixteen-qpr1
+  - url: https://github.com/pixelos-lunaa/vendor_oneplus_sm8350-common.git 
+    path: vendor/oneplus/sm8350-common
+    branch: sixteen-qpr1
+  - url: https://github.com/pixelos-lunaa/kernel_oneplus_sm8350.git 
+    path: kernel/oneplus/sm8350
+    branch: sixteen-qpr1
+  - url: https://github.com/pixelos-lunaa/android_hardware_oplus.git
+    path: hardware/oplus
+    branch: sixteen-qpr1
