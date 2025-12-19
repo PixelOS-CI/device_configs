@@ -7,5 +7,35 @@ images:
   - vbmeta
   - super_empty
 
-picks:
-  - id: 3074
+extra_deps:
+  - url: https://github.com/OnePlus12R-development/android_device_oneplus_aston
+    path: device/oneplus/aston
+    branch: sixteen-qpr1
+
+  - url: https://github.com/OnePlus12R-development/android_device_oneplus_aston-kernel
+    path: device/oneplus/aston-kernel
+    branch: sixteen-qpr1
+
+  - url: https://github.com/OnePlus12R-development/android_kernel_oneplus_sm8550
+    path: kernel/oneplus/sm8550
+    branch: sixteen-qpr1
+
+  - url: https://github.com/OnePlus12R-development/android_kernel_oneplus_sm8550-devicetrees
+    path: kernel/oneplus/sm8550-devicetrees
+    branch: sixteen-qpr1
+
+  - url: https://github.com/OnePlus12R-development/android_kernel_oneplus_sm8550-modules
+    path: kernel/oneplus/sm8550-modules
+    branch: sixteen-qpr1
+
+  - url: https://github.com/OnePlus12R-development/android_device_oneplus_sm8550-common
+    path: device/oneplus/sm8550-common
+    branch: sixteen-qpr1
+
+  - url: https://gitlab.com/playground0230/vendor_oneplus_aston
+    path: vendor/oneplus/aston
+    branch: sixteen-qpr1
+
+  - url: https://gitlab.com/playground0230/vendor_oneplus_sm8550-common
+    path: vendor/oneplus/sm8550-common
+    branch: sixteen-qpr1
