@@ -3,5 +3,4 @@ images:
   - vendor_boot
 
 picks:
-  - id: "sunny-qol"
   - id: "legacy-bpf-compat"
