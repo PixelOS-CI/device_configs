@@ -2,3 +2,19 @@ images:
   - boot
   - vendor_boot
   - dtbo
+
+extra_deps:
+  - url: git@github.com:whyredfire/android_device_xiaomi_lisa.git
+    path: device/xiaomi/lisa
+  - url: git@github.com:whyredfire/android_device_xiaomi_xiaomi_sm8350-common.git
+    path: device/xiaomi/sm8350-common
+  - url: git@gitlab.com:whyredfire/proprietary_vendor_xiaomi_lisa.git
+    path: vendor/xiaomi/lisa
+  - url: git@github.com:xiaomi-lisa-devs/proprietary_vendor_xiaomi_sm8350-common.git
+    path: vendor/xiaomi/sm8350-common
+  - url: git@gitlab.com:whyredfire/proprietary_vendor_xiaomi_miuicamera-lisa.git
+    path: vendor/xiaomi/miuicamera-lisa
+  - url: git@github.com:LineageOS/android_kernel_xiaomi_sm8350.git
+    path: kernel/xiaomi/sm8350
+  - url: git@github.com:PixelOS-AOSP/android_hardware_xiaomi.git
+    path: hardware/xiaomi
