@@ -6,7 +6,7 @@ images:
 extra_deps:
   - url: git@github.com:whyredfire/android_device_xiaomi_lisa.git
     path: device/xiaomi/lisa
-  - url: git@github.com:whyredfire/android_device_xiaomi_xiaomi_sm8350-common.git
+  - url: git@github.com:whyredfire/android_device_xiaomi_sm8350-common.git
     path: device/xiaomi/sm8350-common
   - url: git@gitlab.com:whyredfire/proprietary_vendor_xiaomi_lisa.git
     path: vendor/xiaomi/lisa
