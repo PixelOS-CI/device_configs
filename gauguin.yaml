@@ -2,16 +2,8 @@ images:
   - recovery
   
 picks:
-    # frameworks/base
-  - id: "BP3A_asb_2025-12"
-    pull: true
     # blur patch
   - id: 4249
-    # fixup! SystemUI: Status bar tuner improvements
-  - id: 4316
-    # packages/apps/Settings
-    # - id: 4170
-    # pull: true
     # device/lineage/sepolicy
   - id: 465162
     remote: "https://review.lineageos.org"
