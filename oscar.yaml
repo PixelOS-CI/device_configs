@@ -7,3 +7,9 @@ images:
 picks:
   - id: 1587
   - id: 4031
+  - id: 465163
+    remote: "https://review.lineageos.org"
+    path: "frameworks/base"
+  - id: 465162
+    remote: "https://review.lineageos.org"
+    path: "device/lineage/sepolicy"
