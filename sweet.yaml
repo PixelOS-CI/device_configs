@@ -4,18 +4,11 @@ images:
   - recovery
 
 picks:
-    # Device tree
-  - id: 4349
-    pull: true
-    # Common tree
+    # device/xiaomi/sweet
+  - id: 4238
+    # device/xiaomi/sm6150-common
   - id: 4230
     pull: true
-    # Kernel tree
-  - id: 4092
-    pull: true
+    # kernel/xiaomi/sm6150
   - id: "ln8000"
-
-extra_deps:
-  - url: https://github.com/frost-testzone/vendor_oneplus_dolby.git
-    path: vendor/oneplus/dolby
-    branch: main
+      pull: true
