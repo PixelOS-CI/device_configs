@@ -12,3 +12,9 @@ picks:
     # kernel/xiaomi/sm6150
   - id: "ln8000"
       pull: true
+   # frameworks/base
+  - id: 4249
+    # device/lineage/sepolicy
+  - id: 465162
+    remote: "https://review.lineageos.org"
+    path: "device/lineage/sepolicy"
