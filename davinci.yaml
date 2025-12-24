@@ -4,6 +4,12 @@ images:
   - recovery
 
 picks:
-  # device/xiaomi/sm6150-common
-  - id: 4133
+    # device/xiaomi/sm6150-common
+  - id: 4230
     pull: true
+   # frameworks/base
+  - id: 4249
+    # device/lineage/sepolicy
+  - id: 465162
+    remote: "https://review.lineageos.org"
+    path: "device/lineage/sepolicy"
