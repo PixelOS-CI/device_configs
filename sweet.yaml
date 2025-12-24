@@ -5,7 +5,7 @@ images:
 
 picks:
     # device/xiaomi/sweet
-  - id: 4238
+  - id: 4383
     # device/xiaomi/sm6150-common
   - id: 4230
     pull: true
