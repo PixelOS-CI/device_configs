@@ -3,6 +3,10 @@ images:
   - recovery
 
 picks:
-  - id: 2391
-  - id: 194
-  - id: 2399
+  - id: "legacy-bpf-compat"
+  - id: 4399
+  - id: 4400
+  - id: 4401
+  - id: 4402
+  - id: 4403
+  - id: 4404
