@@ -4,8 +4,7 @@ images:
   - dtbo
 
 picks:
-  - id: 4240
-  - id: 4375
+  - 4398
 
 extra_deps:
   - url: git@github.com:whyredfire/android_kernel_oneplus_sm8350.git
