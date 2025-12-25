@@ -8,7 +8,7 @@ picks:
   - id: 4383
     pull: true
     # device/xiaomi/sm6150-common
-  - id: 4230
+  - id: 4382
     pull: true
     # kernel/xiaomi/sm6150
   - id: "ln8000"
