@@ -2,3 +2,10 @@ images:
   - boot
   - dtbo
   - recovery
+
+picks:
+  - id: 5327
+  - id: 4249
+  - id: 465162
+    remote: "https://review.lineageos.org"
+    path: "device/lineage/sepolicy"
