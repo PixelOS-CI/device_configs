@@ -4,6 +4,8 @@ images:
   - dtbo
 
 picks:
+  - id: 4412
+    pull: true
   - id: 4398
 
 extra_deps:
