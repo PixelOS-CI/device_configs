@@ -18,3 +18,15 @@ picks:
   - id: 465162
     remote: "https://review.lineageos.org"
     path: "device/lineage/sepolicy"
+
+# Dolby Atmos
+extra_deps:
+  - url: https://github.com/aosp-playground/android_device_oneplus_dolby.git
+    path: device/oneplus/dolby
+    branch: sixteen-qpr1
+  - url: https://github.com/aosp-playground/proprietary_vendor_oneplus_dolby.git
+    path: vendor/oneplus/dolby
+    branch: sixteen-qpr1
+  - url: https://github.com/aosp-xiaomi/android_packages_apps_DolbyAtmos.git
+    path: packages/apps/DolbyAtmos
+    branch: sixteen-qpr1
