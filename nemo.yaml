@@ -1,0 +1,6 @@
+images:
+  - boot
+  - recovery
+
+picks:
+  - id: "legacy-bpf-compat"
