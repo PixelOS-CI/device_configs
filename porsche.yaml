@@ -4,11 +4,19 @@ images:
   - dtbo
 
 picks:
-  - id: 4412
+    # device/oneplus/sm8350-common
+  - id: 5328 # sm8350-common: Inherit device/oneplus/dolby
     pull: true
-  - id: 4398
+    # device/realme/porsche
+  - id: 4398 # porsche: Disable gamma conversion for brightness slider
 
 extra_deps:
   - url: git@github.com:whyredfire/android_kernel_oneplus_sm8350.git
     path: kernel/oneplus/sm8350
+    branch: sixteen-qpr1
+  - url: https://github.com/aosp-playground/android_device_oneplus_dolby.git
+    path: device/oneplus/dolby
+    branch: sixteen-qpr1
+  - url: https://github.com/aosp-playground/proprietary_vendor_oneplus_dolby.git
+    path: vendor/oneplus/dolby
     branch: sixteen-qpr1
