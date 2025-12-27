@@ -4,12 +4,10 @@ images:
   - recovery
 
 picks:
+    # device/xiaomi/davinci
+  - id: 4384 # Revert "davinci: overlay-custom: Convert fod_icon_pressed from png to webp"
     # device/xiaomi/sm6150-common
-  - id: 4230
+  - id: 5330 # fixup! sm6150-common: Disable blurs by default
     pull: true
    # frameworks/base
-  - id: 4249
-    # device/lineage/sepolicy
-  - id: 465162
-    remote: "https://review.lineageos.org"
-    path: "device/lineage/sepolicy"
+  - id: 5329 # SettingsProvider: Add default resource for disable_window_blurs
