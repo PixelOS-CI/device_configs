@@ -7,16 +7,12 @@ picks:
     # device/xiaomi/sweet
   - id: 4221 # sweet: Introduce Dolby Atmos support
     # device/xiaomi/sm6150-common
-  - id: 4230 # sm6150-common: rootdir: Remove /data/vendor/dolby on upgrade
+  - id: 5330 # fixup! sm6150-common: Disable blurs by default
     pull: true
     # kernel/xiaomi/sm6150
   - id: "ln8000" # fixup! power: supply: maxim: Add support for K6/sweet
    # frameworks/base
-  - id: 4249 # wm: Allow disabling window blurs by default
-    # device/lineage/sepolicy
-  - id: 465162 # sepolicy: Label ro.surface_flinger.blur_disabled_by_default
-    remote: "https://review.lineageos.org"
-    path: "device/lineage/sepolicy"
+  - id: 5329 # SettingsProvider: Add default resource for disable_window_blurs
 
 # Dolby Atmos
 extra_deps:
