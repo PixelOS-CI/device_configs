@@ -3,9 +3,9 @@ images:
   - recovery
 
 picks:
-
   - id: "legacy-bpf-compat"
   - id: 4249
   - id: 465162
     remote: "https://review.lineageos.org"
     path: "device/lineage/sepolicy"
+
