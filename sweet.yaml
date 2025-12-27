@@ -5,14 +5,18 @@ images:
 
 picks:
     # device/xiaomi/sweet
-  - id: 4221 # sweet: Introduce Dolby Atmos support
+  - id: 4225 # sweet: Build DSPVolumeSynchronizer
+    pull: true
     # device/xiaomi/sm6150-common
-  - id: 5330 # fixup! sm6150-common: Disable blurs by default
+  - id: 4192 # sm6150-common: Disable blurs by default
     pull: true
     # kernel/xiaomi/sm6150
   - id: "ln8000" # fixup! power: supply: maxim: Add support for K6/sweet
    # frameworks/base
-  - id: 5329 # SettingsProvider: Add default resource for disable_window_blurs
+  - id: 4249 # SettingsProvider: Add default resource for disable_window_blurs
+    pull: true
+   # packages/apps/Settings
+  - id: 4379 # Settings: Allow choosing volume panel position [2/2]
 
 # Dolby Atmos
 extra_deps:
