@@ -6,3 +6,7 @@ images:
 picks:
   - id: 4415
 
+extra_deps:
+  - url: git@github.com:geek0609/android_packages_apps_Updater.git
+    path: packages/apps/Updater
+    branch: sixteen-qpr1
