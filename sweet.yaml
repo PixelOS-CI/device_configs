@@ -5,17 +5,16 @@ images:
 
 picks:
     # device/xiaomi/sweet
-  - id: 4383
-    pull: true
+  - id: 4221 # sweet: Introduce Dolby Atmos support
     # device/xiaomi/sm6150-common
-  - id: 4230
+  - id: 4230 # sm6150-common: rootdir: Remove /data/vendor/dolby on upgrade
     pull: true
     # kernel/xiaomi/sm6150
-  - id: "ln8000"
+  - id: "ln8000" # fixup! power: supply: maxim: Add support for K6/sweet
    # frameworks/base
-  - id: 4249
+  - id: 4249 # wm: Allow disabling window blurs by default
     # device/lineage/sepolicy
-  - id: 465162
+  - id: 465162 # sepolicy: Label ro.surface_flinger.blur_disabled_by_default
     remote: "https://review.lineageos.org"
     path: "device/lineage/sepolicy"
 
@@ -26,7 +25,4 @@ extra_deps:
     branch: sixteen-qpr1
   - url: https://github.com/aosp-playground/proprietary_vendor_oneplus_dolby.git
     path: vendor/oneplus/dolby
-    branch: sixteen-qpr1
-  - url: https://github.com/aosp-xiaomi/android_packages_apps_DolbyAtmos.git
-    path: packages/apps/DolbyAtmos
     branch: sixteen-qpr1
