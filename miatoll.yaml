@@ -4,11 +4,13 @@ images:
   - recovery
 
 picks:
-  - id: 5381
-  - id: 5382
-  - id: 5383
+  - id: 5384
   - id: 4249
   - id: 465162
     remote: "https://review.lineageos.org"
     path: "device/lineage/sepolicy"
 
+extra_deps:
+  - url: https://github.com/kardebayan/vendor_xiaomi_miuicamera-miatoll
+    path: vendor/xiaomi/miuicamera-miatoll
+    branch: sixteen-qpr1
