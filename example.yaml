@@ -17,3 +17,6 @@ extra_deps:
   - url: https://github.com/torvalds/linux
     path: kernel/mainline
     branch: master (optional)
+
+build:
+  type: "user"
