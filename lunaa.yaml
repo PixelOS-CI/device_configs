@@ -10,15 +10,15 @@ extra_deps:
   - url: https://github.com/pixelos-lunaa/vendor_realme_lunaa.git
     path: vendor/realme/lunaa
     branch: sixteen-qpr1
-  - url: https://github.com/pixelos-lunaa/device_oneplus_sm8350-common.git
+  - url: https://github.com/PixelOS-Devices/android_device_oneplus_sm8350-common.git
     path: device/oneplus/sm8350-common
     branch: sixteen-qpr1
-  - url: https://github.com/pixelos-lunaa/vendor_oneplus_sm8350-common.git 
+  - url: https://gitlab.com/NoPrincessHere/proprietary_vendor_oneplus_sm8350-common.git
     path: vendor/oneplus/sm8350-common
     branch: sixteen-qpr1
-  - url: https://github.com/pixelos-lunaa/kernel_oneplus_sm8350.git 
+  - url: https://github.com/whyredfire/android_kernel_oneplus_sm8350.git
     path: kernel/oneplus/sm8350
-    branch: sixteen-qpr1
-  - url: https://github.com/pixelos-lunaa/android_hardware_oplus.git
+    branch: lineage-23.2
+  - url: https://github.com/PixelOS-AOSP/android_hardware_oplus.git
     path: hardware/oplus
     branch: sixteen-qpr1
