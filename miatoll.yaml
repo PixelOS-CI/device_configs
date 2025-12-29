@@ -4,7 +4,12 @@ images:
   - recovery
 
 picks:
-  - id: 4249
-  - id: 465162
-    remote: "https://review.lineageos.org"
-    path: "device/lineage/sepolicy"
+  - id: 5384 # sm6250-common: Inherit MiuiCamera
+  - id: 5388 # Revert "sm6250-common: Disable blurs by default"
+  - id: 4249 # SettingsProvider: Add default resource for disable_window_blurs
+    pull: true
+
+extra_deps:
+  - url: https://github.com/kardebayan/vendor_xiaomi_miuicamera-miatoll
+    path: vendor/xiaomi/miuicamera-miatoll
+    branch: sixteen-qpr1
