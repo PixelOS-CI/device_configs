@@ -10,7 +10,8 @@ picks:
     pull: true
 
 extra_deps:
-  - url: https://github.com/kardebayan/vendor_xiaomi_miuicamera-miatoll
+  - url: https://gitlab.com/kardebayan/vendor_xiaomi_miuicamera-miatoll
     path: vendor/xiaomi/miuicamera-miatoll
     branch: sixteen-qpr1
+
 
