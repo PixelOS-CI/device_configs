@@ -4,3 +4,6 @@ images:
 
 picks:
   - id: 2978
+
+build:
+  type: "user"
