@@ -5,7 +5,7 @@ images:
 
 picks:
   - id: 5384 # sm6250-common: Inherit MiuiCamera
-  - id: 5388 # Revert "sm6250-common: Disable blurs by default"
+  - id: 5398 # fixup! sm6250-common: Disable blurs by default
   - id: 4249 # SettingsProvider: Add default resource for disable_window_blurs
     pull: true
 
@@ -13,3 +13,4 @@ extra_deps:
   - url: https://github.com/kardebayan/vendor_xiaomi_miuicamera-miatoll
     path: vendor/xiaomi/miuicamera-miatoll
     branch: sixteen-qpr1
+
