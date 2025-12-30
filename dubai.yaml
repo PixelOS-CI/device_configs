@@ -6,8 +6,12 @@ images:
 picks:
   - id: 5405
   - id: 5407
+  # FP boost
+  - id: 5411
+  - id: 5402
 
 build:
   type: "user"
+
 
 
