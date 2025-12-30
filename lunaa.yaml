@@ -3,16 +3,6 @@ images:
   - vendor_boot
   - dtbo
 
-picks:
-    # device/oneplus/sm8350-common
-  - id: 5380 # sm8350-common: overlay-custom: Configure audio panel on the left side
-    pull: true
-   # frameworks/base
-  - id: 4249 # SettingsProvider: Add default resource for disable_window_blurs
-    pull: true
-   # packages/apps/Settings
-  - id: 4379 # Settings: Allow choosing volume panel position [2/2]
-
 extra_deps:
   - url: https://github.com/pixelos-lunaa/device_realme_lunaa.git
     path: device/realme/lunaa
