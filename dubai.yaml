@@ -3,6 +3,11 @@ images:
   - vendor_boot
   - dtbo
 
+picks:
+  - id: 5405
+  - id: 5407
+
 build:
   type: "user"
+
 
