@@ -5,7 +5,7 @@ images:
 
 picks:
     # device/oneplus/sm8350-common
-  - id: 5380 # sm8350-common: overlay-custom: Configure audio panel on the left side
+  - id: 5408 # sm8350-common: Inherit OPlus Camera
     pull: true
     # device/realme/porsche
   - id: 4398 # porsche: Disable gamma conversion for brightness slider
@@ -24,4 +24,7 @@ extra_deps:
     branch: sixteen-qpr1
   - url: https://github.com/aosp-playground/proprietary_vendor_oneplus_dolby.git
     path: vendor/oneplus/dolby
+    branch: sixteen-qpr1
+  - url: https://gitlab.com/NoPrincessHere/proprietary_vendor_oplus_camera.git
+    path: vendor/oplus/camera
     branch: sixteen-qpr1
