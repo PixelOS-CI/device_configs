@@ -3,6 +3,16 @@ images:
   - vendor_boot
   - dtbo
 
+picks:
+    # device/oneplus/sm8350-common
+  - id: 5380 # sm8350-common: overlay-custom: Configure audio panel on the left side
+    pull: true
+   # frameworks/base
+  - id: 4249 # SettingsProvider: Add default resource for disable_window_blurs
+    pull: true
+   # packages/apps/Settings
+  - id: 4379 # Settings: Allow choosing volume panel position [2/2]
+
 extra_deps:
   - url: https://github.com/pixelos-lunaa/device_realme_lunaa.git
     path: device/realme/lunaa
@@ -18,7 +28,7 @@ extra_deps:
     branch: sixteen-qpr1
   - url: https://github.com/whyredfire/android_kernel_oneplus_sm8350.git
     path: kernel/oneplus/sm8350
-    branch: lineage-23.2
+    branch: sixteen-qpr1
   - url: https://github.com/PixelOS-AOSP/android_hardware_oplus.git
     path: hardware/oplus
     branch: sixteen-qpr1
