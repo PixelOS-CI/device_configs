@@ -5,7 +5,6 @@ images:
 
 picks:
   - id: 5405
-  - id: 5412
   - id: 5414
   # FP boost
   - id: 5411
@@ -13,6 +12,7 @@ picks:
 
 build:
   type: "user"
+
 
 
 
