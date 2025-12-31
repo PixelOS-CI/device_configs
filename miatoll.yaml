@@ -4,6 +4,8 @@ images:
   - recovery
 
 picks:
-  - id: 5398 # fixup! sm6250-common: Disable blurs by default
-  - id: 4249 # SettingsProvider: Add default resource for disable_window_blurs
+  - id: 4249 # wm: Allow disabling window blurs by default
     pull: true
+
+build:
+  type: "user"
