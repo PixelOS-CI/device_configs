@@ -13,7 +13,7 @@ picks:
     # kernel/xiaomi/sm6150
   - id: "ln8000" # fixup! power: supply: maxim: Add support for K6/sweet
    # frameworks/base
-  - id: 4249 # SettingsProvider: Add default resource for disable_window_blurs
+  - id: 4377 # SystemUI: Allow choosing volume panel position [1/2]
     pull: true
    # packages/apps/Settings
   - id: 4379 # Settings: Allow choosing volume panel position [2/2]
@@ -26,3 +26,6 @@ extra_deps:
   - url: https://github.com/aosp-playground/proprietary_vendor_oneplus_dolby.git
     path: vendor/oneplus/dolby
     branch: sixteen-qpr1
+
+build:
+  type: "user"
