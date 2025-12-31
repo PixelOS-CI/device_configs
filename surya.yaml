@@ -3,5 +3,8 @@ images:
   - dtbo
   - recovery
 
+picks:
+  - id: 5438 # surya: Add support for `INT_PA_DUPLEX` hwc
+
 build:
   type: "user"
