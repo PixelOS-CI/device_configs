@@ -8,15 +8,15 @@ picks:
   - id: 4225 # sweet: Build DSPVolumeSynchronizer
     pull: true
     # device/xiaomi/sm6150-common
-  - id: 4192 # sm6150-common: Disable blurs by default
+  - id: 4230 # sm6150-common: rootdir: Remove /data/vendor/dolby on upgrade
     pull: true
     # kernel/xiaomi/sm6150
   - id: "ln8000" # fixup! power: supply: maxim: Add support for K6/sweet
-   # frameworks/base
-  - id: 4377 # SystemUI: Allow choosing volume panel position [1/2]
+    # frameworks/base
+  - id: 5427 # SystemUI: Make battery clickable again
     pull: true
-   # packages/apps/Settings
-  - id: 4379 # Settings: Allow choosing volume panel position [2/2]
+    # packages/apps/Settings
+  - id: 2679 # Reapply "Settings: Protect sensitive data on the about phone"
 
 # Dolby Atmos
 extra_deps:
@@ -25,7 +25,7 @@ extra_deps:
     branch: sixteen-qpr1
   - url: https://github.com/aosp-playground/proprietary_vendor_oneplus_dolby.git
     path: vendor/oneplus/dolby
-    branch: sixteen-qpr1
+    branch: sixteen-qpr1-sweet
 
 build:
   type: "user"
