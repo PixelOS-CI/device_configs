@@ -8,9 +8,10 @@ picks:
   - id: 5408 # sm8350-common: Inherit OPlus Camera
     pull: true
     # device/realme/porsche
-  - id: 4398 # porsche: Disable gamma conversion for brightness slider
+  - id: 5417 # porsche: Fix purple tint with night mode in oplus cam
+    pull: true
    # frameworks/base
-  - id: 4249 # SettingsProvider: Add default resource for disable_window_blurs
+  - id: 4377 # SystemUI: Allow choosing volume panel position [1/2]
     pull: true
    # packages/apps/Settings
   - id: 4379 # Settings: Allow choosing volume panel position [2/2]
