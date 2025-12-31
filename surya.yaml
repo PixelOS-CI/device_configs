@@ -6,6 +6,7 @@ images:
 picks:
   - id: 4249 # wm: Allow disabling window blurs by default
     pull: true
+  - id: 5413 # sepolicy: Label ro.surface_flinger.blur_disabled_by_default
 
 build:
   type: "user"
