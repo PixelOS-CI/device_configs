@@ -1,0 +1,12 @@
+images:
+  - boot
+  - dtbo
+  - recovery
+  
+extra_deps:
+  - url: git@github.com:motorola-sm7250-devs/android_kernel_motorola_sm7250.git
+    path: kernel/motorola/sm7250
+    branch: staging/lineage-23.2
+    
+build:
+  type: "user"
