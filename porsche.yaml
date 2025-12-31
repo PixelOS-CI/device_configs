@@ -11,10 +11,10 @@ picks:
   - id: 5417 # porsche: Fix purple tint with night mode in oplus cam
     pull: true
    # frameworks/base
-  - id: 4377 # SystemUI: Allow choosing volume panel position [1/2]
+  - id: 5423 # SystemUI: volume dialog: Align padding/margin for left and right
     pull: true
    # packages/apps/Settings
-  - id: 4379 # Settings: Allow choosing volume panel position [2/2]
+  # - id: 4379 # Settings: Allow choosing volume panel position [2/2]
   
 extra_deps:
   - url: git@github.com:whyredfire/android_kernel_oneplus_sm8350.git
