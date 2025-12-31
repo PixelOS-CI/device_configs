@@ -8,7 +8,7 @@ picks:
   - id: 5408 # sm8350-common: Inherit OPlus Camera
     pull: true
     # device/realme/porsche
-  - id: 5417 # porsche: Fix purple tint with night mode in oplus cam
+  - id: 5436 # porsche: Set UNSAFE_DISABLE_HIDDENAPI_FLAGS to true
     pull: true
    # frameworks/base
   - id: 5427 # SystemUI: Make battery clickable again
