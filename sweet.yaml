@@ -4,23 +4,8 @@ images:
   - recovery
 
 picks:
-    # device/xiaomi/sweet
-  - id: 4225 # sweet: Build DSPVolumeSynchronizer
-    pull: true
-    # device/xiaomi/sm6150-common
-  - id: 4230 # sm6150-common: rootdir: Remove /data/vendor/dolby on upgrade
-    pull: true
     # kernel/xiaomi/sm6150
   - id: "ln8000" # fixup! power: supply: maxim: Add support for K6/sweet
-
-# Dolby Atmos
-extra_deps:
-  - url: https://github.com/aosp-playground/android_device_oneplus_dolby.git
-    path: device/oneplus/dolby
-    branch: sixteen-qpr1
-  - url: https://github.com/aosp-playground/proprietary_vendor_oneplus_dolby.git
-    path: vendor/oneplus/dolby
-    branch: sixteen-qpr1-sweet
 
 build:
   type: "user"
