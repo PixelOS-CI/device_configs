@@ -4,10 +4,8 @@ images:
   - recovery
 
 picks:
-    # device/xiaomi/davinci
-  - id: 4384 # Revert "davinci: overlay-custom: Convert fod_icon_pressed from png to webp"
     # device/xiaomi/sm6150-common
-  - id: 5330 # fixup! sm6150-common: Disable blurs by default
-    pull: true
-   # frameworks/base
-  - id: 5329 # SettingsProvider: Add default resource for disable_window_blurs
+  - id: 5470 # Revert "sm6150-common: Update work durations from kalama"
+
+build:
+  type: "user"
