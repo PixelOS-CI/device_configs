@@ -6,6 +6,8 @@ images:
 picks:
     # kernel/xiaomi/sm6150
   - id: "ln8000" # fixup! power: supply: maxim: Add support for K6/sweet
+    # frameworks/base
+  - id: 5471 # [DNM] ContextImpl: avoid null external dirs when storage not prepared
 
 build:
   type: "user"
