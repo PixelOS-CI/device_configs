@@ -5,6 +5,7 @@ images:
 
 picks:
   - id: 5443 # surya: Change package name for `WifiOverlay`
+  - id: 5444 # surya: Drop default Lineage Health soong configs
 
 build:
   type: "user"
