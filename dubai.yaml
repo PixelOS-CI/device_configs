@@ -4,14 +4,23 @@ images:
   - dtbo
 
 picks:
+  # Modules
   - id: 5405
+  # Frame Rate Multiples
+  - id: 5445
+  # Audio
   - id: 5414
+  - id: 5448
+  - id: 5447
   # FP boost
   - id: 5411
   - id: 5402
+  # Refresh rate timer
+  - id: 5449
 
 build:
   type: "user"
+
 
 
 
