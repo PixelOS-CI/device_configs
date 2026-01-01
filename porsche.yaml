@@ -8,7 +8,7 @@ picks:
   - id: 5408 # sm8350-common: Inherit OPlus Camera
     pull: true
     # device/realme/porsche
-  - id: 5436 # porsche: Set UNSAFE_DISABLE_HIDDENAPI_FLAGS to true
+  - id: 5439 # porsche: overlay: Use AOSP overlay for volume panel location
     pull: true
    # frameworks/base
   - id: 5427 # SystemUI: Make battery clickable again
