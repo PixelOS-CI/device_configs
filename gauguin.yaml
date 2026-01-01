@@ -2,12 +2,6 @@ images:
   - recovery
   
 picks:
-    # blur patch
-  - id: 4249
-    # device/lineage/sepolicy
-  - id: 465162
-    remote: "https://review.lineageos.org"
-    path: "device/lineage/sepolicy"
     # device/xiaomi/gauguin
   - id: 4251
     pull: true
