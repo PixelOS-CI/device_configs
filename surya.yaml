@@ -3,5 +3,8 @@ images:
   - dtbo
   - recovery
 
+picks:
+  - id: 5443 # surya: Change package name for `WifiOverlay`
+
 build:
   type: "user"
