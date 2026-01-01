@@ -4,8 +4,7 @@ images:
   - recovery
 
 picks:
-  - id: 5443 # surya: Change package name for `WifiOverlay`
-  - id: 5444 # surya: Drop default Lineage Health soong configs
+  - id: 5444 # surya: Enable charging control bypass mode
 
 build:
   type: "user"
