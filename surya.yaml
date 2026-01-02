@@ -4,7 +4,7 @@ images:
   - recovery
 
 picks:
-  - id: 5444 # surya: Enable charging control bypass mode
+  - id: 5477 # surya: Enable charging control bypass mode
 
 build:
   type: "user"
