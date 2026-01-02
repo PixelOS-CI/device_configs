@@ -4,10 +4,10 @@ images:
   - recovery
 
 picks:
-  - id: 5437 # sm6250-common: Enable fluence for voice communication
-  - id: 5446 # sm6250-common: Force primary microphone
+  - id: 5472 # sm6250-common: audio: remove direct flag for VOIP RX
 
 build:
   type: "user"
+
 
 
