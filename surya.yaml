@@ -3,8 +3,5 @@ images:
   - dtbo
   - recovery
 
-picks:
-  - id: 5477 # surya: Enable charging control bypass mode
-
 build:
   type: "user"
