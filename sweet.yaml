@@ -4,8 +4,13 @@ images:
   - recovery
 
 picks:
+    # device/xiaomi/sm6150-common
+  - id: 5478 # sm6150-common: Enable charging control bypass mode
     # kernel/xiaomi/sm6150
+  - id: 5479 # power: qpnp-smb5: Implement charging_enabled node
   - id: "ln8000" # fixup! power: supply: maxim: Add support for K6/sweet
+    # packages/apps/Settings
+  - id: 2679 # Reapply "Settings: Protect sensitive data on the about phone"
 
 build:
   type: "user"
