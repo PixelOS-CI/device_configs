@@ -7,5 +7,11 @@ picks:
     # device/xiaomi/sm6150-common
   - id: 5470 # Revert "sm6150-common: Update work durations from kalama"
 
+  
+extra_deps:
+  - url: https://github.com/aosp-playground/android_device_oneplus_dolby.git
+    path: device/oneplus/dolby
+    branch: sixteen-qpr1
+    
 build:
   type: "user"
