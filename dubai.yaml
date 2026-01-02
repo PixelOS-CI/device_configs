@@ -8,8 +8,14 @@ picks:
   - id: 5411
   - id: 5473
 
+extra_deps:
+  - url: git@github.com:geek0609/android_packages_apps_Updater.git
+    path: packages/apps/Updater
+    branch: sixteen-qpr1
+
 build:
   type: "user"
+
 
 
 
