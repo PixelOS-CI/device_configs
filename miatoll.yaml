@@ -6,6 +6,7 @@ images:
 picks:
   - id: 5472 # sm6250-common: audio: remove direct flag for VOIP RX
   - id: 5474 # sm6250-common: Enable charging control bypass mode  
+  - id: 5475 # sm6250-common: audio: Drop 24 and 32 bit recording support  
 
 build:
   type: "user"
