@@ -3,5 +3,9 @@ images:
   - dtbo
   - recovery
 
+picks:
+  - id: "miatoll-audio"
+
 build:
   type: "user"
+
