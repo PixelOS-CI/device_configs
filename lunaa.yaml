@@ -6,7 +6,7 @@ images:
 extra_deps:
   - url: https://github.com/pixelos-lunaa/device_realme_lunaa.git
     path: device/realme/lunaa
-    branch: sixteen
+    branch: sixteen-qpr1
   - url: https://github.com/pixelos-lunaa/vendor_realme_lunaa.git
     path: vendor/realme/lunaa
     branch: sixteen-qpr1
