@@ -3,5 +3,8 @@ images:
   - dtbo
   - recovery
 
+picks:
+  - id: 5509
+
 build:
   type: "user"
