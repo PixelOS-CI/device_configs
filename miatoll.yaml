@@ -4,9 +4,11 @@ images:
   - recovery
 
 picks:
-  - id: 5541 # sm6250-common: rootdir: Set `ro.boot.hardware.revision` property
-  - id: 5542 # sm6250-common: Enable UFFD GC
+  - id: 5546
+  - id: 5547
+  - id: 5545
 
 build:
   type: "user"
+
 
