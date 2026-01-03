@@ -4,8 +4,7 @@ images:
   - recovery
 
 picks:
-  - id: "miatoll-audio"
+  - id: 5541 # sm6250-common: rootdir: Set `ro.boot.hardware.revision` property
 
 build:
   type: "user"
-
