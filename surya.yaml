@@ -4,7 +4,8 @@ images:
   - recovery
 
 picks:
-  - id: 5509
+  - id: 5555
+  - id: 5554
 
 build:
   type: "user"
